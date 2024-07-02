@@ -1,0 +1,980 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Montserrat-M';
+    position: relative;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 55px;
+    font-weight: 800;
+    float: left;
+    font-family:'Lemon Milk';
+    color: #000000;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 4px 12px -1px rgba(0,0,0,0.38);
+-webkit-box-shadow: 1px 4px 12px -1px rgba(0,0,0,0.38);
+-moz-box-shadow: 1px 4px 12px -1px rgba(0,0,0,0.38);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.kolom-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.kolom-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+
+.kolom .deskripsi {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins-R';
+    color :#000000;
+}
+
+.deskripsi {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins-R';
+    color :#000000;
+}
+
+.kolom .deskripsi-bawah {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Popping-R';
+    color :#000000;
+    padding-right: 10px;
+}
+
+.kolom .deskripsi-bawah {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat-M';
+    color :#000000;
+    padding-right: 10px;
+}
+
+.kolom-2 .deskripsi-bawah {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat-M';
+    color :#000000;
+    padding-right: 10px;
+}
+
+h2 {
+    font-family: 'Montserrat-M';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #ddd;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+a.tbl-biru:hover {
+    background: #11409D;
+    color: white;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #ddd;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+a.tbl-pink:hover {
+    background: #11409D;
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding:  10px 0px 10px 0px;
+}
+
+.btn-primary {
+    background: #b1cbff;
+    border-radius: 0px;
+    padding: 4px 69px 1px 69px;
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+.btn-primary:hover{
+    background: #11409D;
+    color: #000000;
+    text-decoration: none;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin:0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'Montserrat-M';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 10%;
+    margin:0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+}
+
+#contact {
+    background: black;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 40%;
+    margin: 30px;
+}
+
+
+.h3 {
+    font-family: 'Grotesk';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+}
+
+.contactfont {
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+    font-family: 'Grotesk';
+}
+
+.contactfontdesc {
+    padding: 0px 0px 0px 0px;
+    font-family: 'Poppins-R';
+    font-size: 15px;
+}
+
+#copyright {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 50px 0px;
+    margin-top: 0px;
+}
+
+/* card */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    margin-right: 25px;
+    background-color: #fff;
+    width: 400%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 400%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-img-hover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+    transition: 0.2s all ease-out;
+}
+
+.card:hover .card-img-hover {
+    height: 100%;
+    opacity: 1;
+}
+
+.card:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1, 1.1);
+}
+
+.card-info {
+    z-index: 2;
+    background-color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+}
+
+.card-category {
+    font-family: "raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-style: 500;
+    color: #717171;
+}
+
+.card-title {
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.card-by {
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.card-admin {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
+
+.card:hover .card-info {
+    background-color: transparent;
+    position: relative;
+}
+
+.kolom-3 {
+text-align: center;
+}
+
+.card-jarak {
+    margin: 25px;
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    display: flex;
+    width: 100%;
+}    
+
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .card-container {
+        display: flex;
+    }    
+
+    .cards {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .card-jarak {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20em;
+        display: block;
+        margin: 1em;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 230px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        visibility: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .card-category {
+        font-size: 13px;
+    }
+    
+    .card-title {
+        font-size: 15px;
+    }
+
+    .logo-sagarna {
+        display: flex;
+        width:100%;
+        float: right;
+    }
+    
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 30%;
+        flex-direction:column;
+    }
+
+    .kartu-tutor1 {
+        width: 30%;
+        flex-direction: column;
+    }
+
+    .kartu-partner {
+        width: 10%;
+        height: 10%;
+        display: flex;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .vidio-trailer {
+        max-width: 100%;
+        
+    }
+
+    .footer {
+        display: flex;
+    }
+
+    .deskripsi-bawah {
+        padding-right: 10px;
+    }
+
+    .logo-cakrawala {
+        width: 20%;
+        padding-left: 10px;
+    }
+
+    .container-slides {
+        max-width: 86%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slideshow-container {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slideshow-container img {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-wrapper {
+        max-width: 100%;
+    }
+
+    .footer-section {
+        width: 30%;
+        margin: 5px;
+        font-size: 20em;
+    }
+
+
+
+}
+
+@media screen and (max-width: 950px) {
+    nav .menu {
+        width: 100%;
+        height: 55px;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 45px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    nav .menu ul li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contactfont {
+        font-size: 20px;
+    }
+
+    .contactfontdesc {
+        font-size: 10px;
+    }
+
+    .kartu-partner img {
+        width: 100px;
+    }
+
+    .kartu-partner {
+        width: 10%;
+    }
+
+    nav .menu {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 45px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    nav .menu ul li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    nav .menu {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    nav .menu {
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 45px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    nav .menu ul li a {
+        font-size: 12px;
+    }
+
+    .container-slides {
+        max-width: 86%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slideshow-container {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slideshow-container img {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .deskripsi-bawah {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .deskripsi-bawah-desc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .vidio-trailer {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .contactfont {
+        font-size: 15px;
+    }
+
+    .contactfontdesc {
+        font-size: 8px;
+    }
+
+    .kartu-partner img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .kartu-partner {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .logo-cakrawala {
+        width: 20%;
+        padding-left: 0px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1em;
+        align-items: flex-start;
+    }
+
+    .card {
+            width: 100%;
+            height: 260px;
+            display: block;
+            justify-content: center;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        visibility: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .card-img-hover {
+        margin-bottom: 10px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: absolute;
+        height: 140px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        top: 0;
+        transition: 0.2s all ease-out;
+    }
+
+    .card-jarak {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    
+    .card-category {
+        font-size: 12px;
+    }
+    
+    .card-title {
+        font-size: 10px;
+    }
+
+    .card-by {
+        font-size: 10px;
+    }
+
+    .card-admin {
+        font-size: 9px;
+    }
+}
+    
+
+.footer-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Lemon Milk;
+    src: url(font-familyLEMONMILK-Medium.otf);
+}
+
+@font-face {
+    font-family: Montserrat-M;
+    src: url(font-family/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-B;
+    src: url(font-family/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Grotesk;
+    src: url(font-family/Grotesk.ttf);
+}
+
+@font-face {
+    font-family: Poppins-R;
+    src: url(font-family/Poppins-Regular.otf);
+}
+
+.logo-sagarna {
+    float: left;
+    margin-top: 20px;
+    margin: none ;
+    width: 220px;
+
+}
+
+.ayam {
+    margin-top: 20px;
+}
+
+.vidio-trailer {
+    padding-left: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .logo-cakrawala {
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .container-slides {
+    margin-top: 25px;
+    width: 100%;
+    margin-right: 100px;
+  }
+
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+
+  .mySlides2 {display: none;}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    margin: auto;
+    width: 445px;
+  }
+
+  .slideshow-container img {
+    width: 120%;
+  }
+  
+  /* Caption text */
+  .text {
+    font-family: 'Poppins-R';
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 120%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration:2s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .3} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+.partner-utama {
+    height: 250px;
+    margin: 0 none;
+}
+.partner-utama img {
+    width: 250px;
+}
